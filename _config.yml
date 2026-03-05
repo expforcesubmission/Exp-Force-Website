@@ -2,7 +2,7 @@ title: "Exp-Force: Experience-Conditioned Pre-Grasp Force Selection with Vision-
 description: >-
   An experience-conditioned framework that predicts the minimum feasible grasping
   force from a single RGB image using vision-language models and in-context inference.
-baseurl: "/exp-force-submission"
+baseurl: "/Exp-Force-Website"
 url: "https://expforcesubmission.github.io"
 
 github_username: expforcesubmission
