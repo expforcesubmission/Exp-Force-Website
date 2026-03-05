@@ -115,19 +115,6 @@ permalink: /
     </h3>
   </center>
 
-  <table border="0" cellspacing="10" cellpadding="0" align="center">
-    <tbody>
-      <tr>
-        <td align="center" valign="middle">
-          <video muted autoplay loop width="798" style="border-radius: 4px;">
-            <source src="{{ '/src/video/header.mov' | relative_url }}" type="video/quicktime">
-            <source src="{{ '/src/video/header.mov' | relative_url }}" type="video/mp4">
-          </video>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
   <p>
     <table align="center" width="800px">
       <tr>
@@ -156,22 +143,78 @@ permalink: /
     </table>
   </p>
 
-  <hr>
-  <center><h2>Citation</h2></center>
+  <center><h2>Zero-shot vs Exp-Force</h2></center>
+  <table border="0" cellspacing="10" cellpadding="0" align="center" width="800px">
+    <tbody>
+      <tr>
+        <td align="center" valign="middle">
+          <video muted autoplay loop playsinline width="100%" style="border-radius: 4px;">
+            <source src="{{ '/src/video/cheez-it.mp4' | relative_url }}" type="video/mp4">
+          </video>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top"><p style="font-size: 16px; margin: 0; padding-bottom: 20px;">Cheez-It Box</p></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle">
+          <video muted autoplay loop playsinline width="100%" style="border-radius: 4px;">
+            <source src="{{ '/src/video/papercup.mp4' | relative_url }}" type="video/mp4">
+          </video>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top"><p style="font-size: 16px; margin: 0; padding-bottom: 20px;">Paper Cup</p></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle">
+          <video muted autoplay loop playsinline width="100%" style="border-radius: 4px;">
+            <source src="{{ '/src/video/champagne-glass.mp4' | relative_url }}" type="video/mp4">
+          </video>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top"><p style="font-size: 16px; margin: 0;">Champagne Glass</p></td>
+      </tr>
+    </tbody>
+  </table>
 
-  <table align="center" width="800px">
-    <tr>
-      <td>
-        <pre><code>@misc{expforce2026,
-  title         = {Exp-Force: Experience-Conditioned Pre-Grasp Force Selection
-                   with Vision-Language Models},
-  year          = {2026},
-  eprint        = {TODO},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.RO}
-}</code></pre>
-      </td>
-    </tr>
+  <br>
+
+  <center><h2>Grasping Light and Fragile Objects</h2></center>
+  <table border="0" cellspacing="10" cellpadding="0" align="center" width="800px">
+    <tbody>
+      <tr>
+        <td align="center" valign="middle">
+          <video muted autoplay loop playsinline width="100%" style="border-radius: 4px;">
+            <source src="{{ '/src/video/pringles.mp4' | relative_url }}" type="video/mp4">
+          </video>
+        </td>
+      </tr>
+      <tr>
+        <!-- <td align="center" valign="top"><p style="font-size: 16px; margin: 0; padding-bottom: 20px;">Pringles</p></td> -->
+      </tr>
+      <tr>
+        <td align="center" valign="middle">
+          <video muted autoplay loop playsinline width="100%" style="border-radius: 4px;">
+            <source src="{{ '/src/video/raspberry.mp4' | relative_url }}" type="video/mp4">
+          </video>
+        </td>
+      </tr>
+      <tr>
+        <!-- <td align="center" valign="top"><p style="font-size: 16px; margin: 0; padding-bottom: 20px;">Raspberry</p></td> -->
+      </tr>
+      <tr>
+        <td align="center" valign="middle">
+          <video muted autoplay loop playsinline width="100%" style="border-radius: 4px;">
+            <source src="{{ '/src/video/red-plastic-cup.mp4' | relative_url }}" type="video/mp4">
+          </video>
+        </td>
+      </tr>
+      <tr>
+        <!-- <td align="center" valign="top"><p style="font-size: 16px; margin: 0;">Red Plastic Cup</p></td> -->
+      </tr>
+    </tbody>
   </table>
 
   <div style="height: 40px;"></div>

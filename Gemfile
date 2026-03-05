@@ -1,6 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 3.9.3"
+gem "ffi", "~> 1.15.5"
+gem "public_suffix", "~> 4.0.7"
+gem "rouge", "~> 3.30.0"
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
